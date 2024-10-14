@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Lostar;
+  src: url(/STYLES/fonts/Lostar.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(/STYLES/fonts/Poppins-Bold.ttf);
+}
+
+.name-place img {
+  height: 100vh;
+  width: 100%;
+  padding-top: 8px;
+  filter: blur(6px);
+}
+
+.name-place {
+  position: relative;
+}
+
+.main-name {
+  display: block;
+  font-family: Lostar;
+  color: #273940;
+  text-align: center;
+  font-size: 90px;
+  z-index: 100;
+  position: absolute;
+  top: 38%;
+  left: 50%; /* Move it right to the middle of the container */
+  transform: translate(-50%, -50%);
+}
+
+.tagline {
+  display: block;
+  font-family: Poppins-bold;
+  color: #273940;
+  text-align: center;
+  font-size: 36px;
+  position: absolute;
+  z-index: 100;
+  top: 51%;
+  left: 50%; /* Move it right to the middle of the container */
+  transform: translateX(-50%);
+}
